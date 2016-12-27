@@ -1,22 +1,22 @@
 {
 	"waffle_types": [
 		{
-			"name": "Waffle 1",
-			"urlextension": "waffle1",
+			"name": "Pecan",
+			"urlextension": "Pecan",
 			"description": "Offal fugiat health goth disrupt, pug waistcoat raw denim wayfarers dreamcatcher craft beer. Sed labore vegan, shoreditch qui selfies aesthetic ut. Nostrud dreamcatcher consequat duis banh mi 8-bit, pork belly pabst. Consequat kombucha waistcoat, before they sold out put a bird on it stumptown twee DIY narwhal.",
-			"img_url": "/img/waffle.png"
+			"img_url": "/img/waffle_pecan.jpg"
 		},
 		{
-			"name": "Waffle 2",
-			"urlextension": "waffle2",
-			"description": "Offal fugiat health goth disrupt, pug waistcoat raw denim wayfarers dreamcatcher craft beer. Sed labore vegan, shoreditch qui selfies aesthetic ut. Nostrud dreamcatcher consequat duis banh mi 8-bit, pork belly pabst. Consequat kombucha waistcoat, before they sold out put a bird on it stumptown twee DIY narwhal.",
-			"img_url": "/img/waffle.png"
+			"name": "Raspberry",
+			"urlextension": "Raspberry",
+			"description": "In post-ironic seitan, sartorial occupy irure echo park. Jean shorts fanny pack meggings 8-bit keffiyeh try-hard. Flexitarian qui sed, tousled ugh sapiente bushwick nisi tattooed. Truffaut chartreuse consectetur, cray hell of mustache ut scenester typewriter selvage disrupt wolf. La croix paleo DIY lomo. Occaecat id migas keffiyeh iPhone. Offal nulla XOXO swag, +1 gluten-free pabst taxidermy celiac reprehenderit aliqua everyday carry next level.",
+			"img_url": "/img/waffle_raspberry.jpg"
 		},
 		{
-			"name": "Waffle 3",
-			"urlextension": "waffle3",
-			"description": "Offal fugiat health goth disrupt, pug waistcoat raw denim wayfarers dreamcatcher craft beer. Sed labore vegan, shoreditch qui selfies aesthetic ut. Nostrud dreamcatcher consequat duis banh mi 8-bit, pork belly pabst. Consequat kombucha waistcoat, before they sold out put a bird on it stumptown twee DIY narwhal.",
-			"img_url": "/img/waffle.png"
+			"name": "Dessert",
+			"urlextension": "Dessert",
+			"description": "Affogato fap sriracha, pork belly readymade brunch biodiesel godard gluten-free DIY cardigan kinfolk edison bulb plaid. Selfies chicharrones beard, woke mixtape locavore irure blog pickled exercitation try-hard seitan echo park. Next level chartreuse photo booth unicorn, anim tumeric cronut ad. Post-ironic ullamco eu, activated charcoal copper mug fashion axe sriracha voluptate direct trade. ",
+			"img_url": "/img/waffle_dessert.jpg"
 		}
 	]
 }

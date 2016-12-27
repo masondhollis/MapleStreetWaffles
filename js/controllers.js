@@ -65,11 +65,14 @@ app.controller('ProductsCtrl', function($scope, $rootScope, $http, $location) {
 
       //This saves it to use in other partials so we dont have to make this call again
       $rootScope.waffles = response.data.waffle_types;
+
+      //Default to showing the first waffle in the list
+      $scope.activeWaffle = $scope.waffles[0];
     });
 
     // GO TO TRANSACTION PAGE ON PRODUCT CLICK
     $scope.waffleClicked = function(waffle) {
-        $location.url("purchase/"+waffle.urlextension);
+        $scope.activeWaffle = waffle;
     }
 })
 

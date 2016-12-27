@@ -1,7 +1,13 @@
+<div id="products_header">
+    <h3 class="header_link" ng-repeat="waffle in waffles" ng-click="waffleClicked(waffle)" ng-class="{selected: activeWaffle == waffle}">{{waffle.name}}</h3>
+</div>
 <div id="product_partial">
-    <div class="product_container" ng-repeat="waffle in waffles" ng-click="waffleClicked(waffle)">
-        <img class="product_image" src="{{waffle.img_url}}">
-        <h2 class="product_name"> {{waffle.name}} </h2>
-        <p class="product_desc"> {{waffle.description}} </p>
+    <div id="product_view_window">
+        <img id="product_image" ng-src="{{activeWaffle.img_url}}">
+        <div id="product_info_container">
+            <h2 id="product_name"> {{activeWaffle.name}} Waffle </h2>
+            <p id="product_description"> {{activeWaffle.description}} </p>
+            <div id="buy_button"> <h2> Buy now </h2> </div>
+        </div>
     </div>
 </div>
