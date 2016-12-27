@@ -3,7 +3,7 @@
 
 html {
   padding: 0;
-  background-color:#DDDDDD;
+  background-color:#FFFFFF;
 }
 
 body {
@@ -41,18 +41,51 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* =================== */
+/*     HEADER CSS      */
+/* =================== */
+#header {
+    height: 65px;
+    border-bottom-style: solid;
+    border-bottom-color: #E5E5E5;
+    border-bottom-width: 1px;
+    padding-left: 12%;
+    padding-right: 12%;
+    color: #555;
+    font-size: .7em;
+}
+
+#stamp {
+    width: 12px;
+    height: 16px;
+    margin-top: 22.5px;
+    background-color: #00A1DF;
+    display: inline-flex;
+    border-radius: 5px;
+}
+
+#header_title {
+    font-family: Montserrat;
+    display: inline;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+
+.header_link {
+    font-family: Montserrat;
+    display: inline;
+    margin-left: 4%;
+
+}
+
+/* =================== */
 /* HOME CSS */
 /* =================== */
-
-html.home {
-  background-color:#DDDDDD;
-}
 
 #home_text {
     position: absolute;
     top: 20%;
     right: 25%;
-    color: #333333;
+    color: #555;
 }
 
 #home_title {

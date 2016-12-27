@@ -21,6 +21,13 @@
 
 
     <div id="main" ng-style="mainStyle">
+        <div id="header">
+            <div id="stamp"></div> <!-- THIS WILL BE AN <img /> WHEN WE GET IT -->
+            <h2 id="header_title" ui-sref="home">LONG LOGO HERE</h2>
+            <h3 class="header_link" ui-sref="about">ABOUT</h3>
+            <h3 class="header_link" ui-sref="products">PRODUCTS</h3>
+            <h3 class="header_link" ui-sref="recipes">RECIPES</h3>
+        </div>
         <div ui-view ></div>
     </div>
     <div class="clearfix"></div>
