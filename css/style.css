@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Ovo);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html {
+  padding: 0;
+  background-color:#DDDDDD;
+}
+
+body {
+  margin: 0;
+}
+
+.clearfix {
+  clear:both;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:Ovo;
+}
+
+#copyright-container {
+  height:0;
+}
+
+#copyright-container > div {
+  position:relative;
+  height:0;
+  width:30%;
+}
+
+#copyright-container p {
+  font-family: Montserrat;
+  color: #FFF;
+  opacity: 0.3;
+  position: absolute;
+  bottom: 20px;
+  letter-spacing: 8px;
+  font-size: 8px;
+  word-spacing: 5px;
+  right:30px;
+}
+
+/* =================== */
+/* HOME CSS */
+/* =================== */
+
+html.home {
+  background-color:#DDDDDD;
+}
+
+#home_text {
+    position: absolute;
+    top: 20%;
+    right: 25%;
+    color: #333333;
+}
+
+#home_title {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 5px;
+}
+
+.home_nav {
+    font-size: 20px;
+    line-height: 40px;
+    font-family: Montserrat;
+    margin: 0 0 0 25px;
+}
+
+
+/* ====================== */
+/*   BUY PRODUCTS STYLE   */
+/* ====================== */
+
+.product_container {
+    margin: 40px;
+    background-color: #E6E6E6;
+    padding: 10px;
+    height: 100px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.product_image {
+    width: 12%;
+    position: absolute;
+    margin: auto;
+    height: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.product_desc {
+    width: 85%;
+    float: right;
+}
+
+.product_name {
+    width: 85%;
+    float: right;
+    margin: 0;
+}
+
+#product_partial {
+    padding: 50px;
+}
+
+.product_image {
+    float: left;
+}
+
+
+/* ======================= */
+/* Transitions & Animations
+/* ======================= */
+
+
+#sidebar, #main, html {
+  -webkit-transition:background .3s ease-in-out;
+  -moz-transition:background .3s ease-in-out;
+  -o-transition:background .3s ease-in-out;
+  transition:background .3s ease-in-out;
+}
+
+
+[ui-view].ng-enter, [ui-view].ng-leave {
+  -webkit-transition:all 0.4s ease-in-out;
+  -moz-transition:all 0.4s ease-in-out;
+  -o-transition:all 0.4s ease-in-out;
+  transition:all 0.4s ease-in-out;
+  transition-delay: 0.3s;
+}
+
+[ui-view].ng-enter {
+  opacity: 0;
+}
+
+[ui-view].ng-enter-active {
+  opacity: 1;
+}
+
+[ui-view].ng-leave {
+  -webkit-transition:all 0.0s ease-in-out;
+  opacity: 1;
+}
+
+[ui-view].ng-leave-active {
+  opacity: 0;
+  -webkit-transition:all 0.8s ease-in-out;
+}
+
+
+
+[animate-on-change] {
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+[animate-on-change].changed {
+  opacity:0;
+  transition: none;
+  -webkit-transition: none;
+}
+
+/**/

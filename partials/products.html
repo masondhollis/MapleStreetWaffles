@@ -1,0 +1,7 @@
+<div id="product_partial">
+    <div class="product_container" ng-repeat="waffle in waffles" ng-click="waffleClicked(waffle)">
+        <img class="product_image" src="{{waffle.img_url}}">
+        <h2 class="product_name"> {{waffle.name}} </h2>
+        <p class="product_desc"> {{waffle.description}} </p>
+    </div>
+</div>

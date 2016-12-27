@@ -1,0 +1,22 @@
+{
+	"waffle_types": [
+		{
+			"name": "Waffle 1",
+			"urlextension": "waffle1",
+			"description": "Offal fugiat health goth disrupt, pug waistcoat raw denim wayfarers dreamcatcher craft beer. Sed labore vegan, shoreditch qui selfies aesthetic ut. Nostrud dreamcatcher consequat duis banh mi 8-bit, pork belly pabst. Consequat kombucha waistcoat, before they sold out put a bird on it stumptown twee DIY narwhal.",
+			"img_url": "/img/waffle.png"
+		},
+		{
+			"name": "Waffle 2",
+			"urlextension": "waffle2",
+			"description": "Offal fugiat health goth disrupt, pug waistcoat raw denim wayfarers dreamcatcher craft beer. Sed labore vegan, shoreditch qui selfies aesthetic ut. Nostrud dreamcatcher consequat duis banh mi 8-bit, pork belly pabst. Consequat kombucha waistcoat, before they sold out put a bird on it stumptown twee DIY narwhal.",
+			"img_url": "/img/waffle.png"
+		},
+		{
+			"name": "Waffle 3",
+			"urlextension": "waffle3",
+			"description": "Offal fugiat health goth disrupt, pug waistcoat raw denim wayfarers dreamcatcher craft beer. Sed labore vegan, shoreditch qui selfies aesthetic ut. Nostrud dreamcatcher consequat duis banh mi 8-bit, pork belly pabst. Consequat kombucha waistcoat, before they sold out put a bird on it stumptown twee DIY narwhal.",
+			"img_url": "/img/waffle.png"
+		}
+	]
+}
