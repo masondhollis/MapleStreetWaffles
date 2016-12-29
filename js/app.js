@@ -37,7 +37,7 @@ angular.module('myApp', ['ngAnimate','ui.router'])
     });
 
 
-    //$urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('/');
 
 }]);
 
