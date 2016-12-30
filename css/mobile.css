@@ -1,0 +1,57 @@
+/*  Mobile Styling */
+@media screen and (max-width:600px) {
+    .partial {
+        padding-top: 85px;
+    }
+
+    #home_partial {
+        background-image: url(../img/mobile_bg.jpg);
+        background-position: top;
+    }
+
+    #header {
+        text-align: center;
+        height: 85px;
+        background-color: white;
+    }
+
+    #header_title {
+        line-height: 50px;
+        font-size: 15px;
+    }
+
+    #products_header .header_link, .header_link {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #home_title {
+        display: none;
+    }
+
+    #products_header {
+        text-align: center;
+    }
+
+    #product_view_window {
+        padding-top: 40px;
+    }
+
+    #product_info_container {
+        position: inherit;
+        width: 100%;
+    }
+
+    #product_image {
+        width: 100%;
+    }
+
+    #buy_button {
+        margin-bottom: 15px;
+    }
+
+    #about_partial {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+}
