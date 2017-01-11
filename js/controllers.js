@@ -74,6 +74,51 @@ app.controller('ProductsCtrl', function($scope, $rootScope, $http, $location) {
     $scope.waffleClicked = function(waffle) {
         $scope.activeWaffle = waffle;
     }
+
+
+
+    //PAYMENT HANDLING
+    var handler = StripeCheckout.configure({
+      key: 'pk_test_9gnDABHfQT87unQdoDbowp82',
+      locale: 'auto',
+      shippingAddress: true,
+      token: function(token) {
+        // You can access the token ID with `token.id`.
+        // Get the token ID to your server-side code for use.
+        console.log("SUCCESS");
+        console.log(token);
+        $.ajax({
+            type: "POST",
+            url: "/scripts/payment.php",
+            data: token,
+            success: function (response) {
+                console.log("SUCCESS");
+                console.log(response);
+            },
+            error: function (response, error) {
+                console.log("ERROR");
+                console.log(response);
+                console.log(error);
+            }
+        })
+
+      }
+    });
+
+    // TODO CHANGE KEY TO PROD
+
+    document.getElementById('buy_button').addEventListener('click', function(e) {
+      // Open Checkout with further options:
+      handler.open({
+        name: 'Checkout',
+        description: $scope.activeWaffle.name + " waffle",
+        amount: 700,
+        image: $scope.activeWaffle.img_url
+      });
+      e.preventDefault();
+    });
+
+    //TODO: close checkout on nav
 })
 
 app.controller('AboutCtrl', function($scope, $rootScope) {
